@@ -1,0 +1,10 @@
+version: '3'
+services:
+  voice-assistant:
+    container_name: irene-mic-client
+    image: irene-mic-client
+    devices:
+      - /dev/snd:/dev/snd
+    volumes:
+      - ./options.json:/options.json
+    restart: 'unless-stopped'
