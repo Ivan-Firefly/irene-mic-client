@@ -5,3 +5,6 @@
 Отличие от оригинального клинета (https://github.com/janvarev/Remote-Irene/blob/master/run_remoteva_micrem.py) - вынес выбор микрофона `deviceId` и частоту `samplerateMic` в `options.json`.
 
 **`deviceId` НЕ может быть пустым!**
+
+Docker для ARM лежит тут - https://hub.docker.com/r/firefly27/irene-mic-client
+Запускать удобнее через `docker-compose.yml`. Перед запуском нужно положить `options.json` рядом с `docker-compose.yml`
