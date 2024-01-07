@@ -10,6 +10,6 @@
 Запускать удобнее через `docker-compose.yml`. Перед запуском положить `options.json` рядом с `docker-compose.yml`
 
 
-**Docker версия (для ARM) тонкого/легкого удаленного клиента лежит тут:**
+**Docker версия (для ARM) основного сервера лежит тут:**
 
 https://github.com/Ivan-Firefly/Irene-Voice-Assistant-Docker
