@@ -1,8 +1,8 @@
 version: '3'
 services:
-  voice-assistant:
+  irene-mic-client:
     container_name: irene-mic-client
-    image: firefly27/irene-mic-client:arm
+    image: firefly27/irene-mic-client
     devices:
       - /dev/snd:/dev/snd
     volumes:
