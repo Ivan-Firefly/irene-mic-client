@@ -1,4 +1,4 @@
-Тонкий клиент для голосового ассистента Ирины - https://github.com/janvarev/Irene-Voice-Assistant
+#Тонкий клиент для голосового ассистента Ирины - https://github.com/janvarev/Irene-Voice-Assistant
 
 Для корректного заупуска нужно в `options.json` именить адрес сервера с Ириной (остальные параметры по желанию).
 
@@ -8,3 +8,8 @@
 
 Образ для ARM лежит тут - https://hub.docker.com/r/firefly27/irene-mic-client
 Запускать удобнее через `docker-compose.yml`. Перед запуском положить `options.json` рядом с `docker-compose.yml`
+
+
+**Docker версия (для ARM) тонкого/легкого удаленного клиента лежит тут:**
+
+https://github.com/Ivan-Firefly/Irene-Voice-Assistant-Docker
