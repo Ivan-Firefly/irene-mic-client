@@ -1,4 +1,4 @@
-# Тонкий клиент для голосового ассистента Ирины [(source repo)](https://github.com/janvarev/Irene-Voice-Assistant)
+# Тонкий клиент для голосового ассистента [Ирины](https://github.com/janvarev/Irene-Voice-Assistant))
 
 Для корректного заупуска нужно в `options.json` именить адрес сервера с Ириной (остальные параметры по желанию).
 
