@@ -8,6 +8,6 @@
 
 Запускать удобнее через `docker-compose.yml`. Перед запуском положить `options.json` рядом с `docker-compose.yml` и изменить адрес сервера с Ириной (остальные параметры по желанию).
 
-**Docker версия (для ARM) основного сервера:**
+**Docker версия основного сервера:**
 
 https://github.com/Ivan-Firefly/Irene-Voice-Assistant-Docker
