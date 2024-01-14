@@ -88,6 +88,9 @@ async def main():
     audio_queue = asyncio.Queue()
 
     logging.basicConfig(level=logging.INFO)
+    print('\nAvaliable devices:')
+    print(sd.query_devices())
+    print()
     print("Remote Irene (VOSK EMBEDDED REMOTE recognizer) v{0} started! ttsFormat={1}, baseUrl={2}, speechRecognizerWebsocketUrl={3}".format(version,ttsFormat,baseUrl,baseUrl))
 
     await run_test(deviceId,samplerateMic)
